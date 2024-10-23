@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .main{
+        @apply w-full max-w-7xl mx-auto my-10 flex flex-wrap justify-center
+    }
+
+    .card{
+        @apply md:w-96 flex flex-col shadow-slate-500 shadow-md p-4 m-4 rounded-md gap-2
+        hover:scale-90 duration-500
+    }
+}
